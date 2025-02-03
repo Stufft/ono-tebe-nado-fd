@@ -134,8 +134,6 @@
 }
 
 .lots {
-  display: flex;
-  flex-wrap: wrap;
   padding: 180px 24px 120px;
 }
 
@@ -167,13 +165,13 @@
   margin: 0;
   padding: 0;
   min-height: 596px;
-  width: 100%;
+  width: 334px;
 }
 
 .lots__card-list {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   list-style: none;
   gap: 25px;
 }
@@ -257,7 +255,6 @@
 }
 
 .footer {
-  min-height: 180px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1f);
